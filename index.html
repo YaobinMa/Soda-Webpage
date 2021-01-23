@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header and front page-->
+    <div id='home'>
+        
+        
+        <div class='header-wrapper'>
+            <div class='logo'>
+                <h2 class='logoText'>SodaFresh</h2>
+            </div>
+            
+            
+
+            <div class='menu'>
+                <ul class='menulist'>
+                    <li><a href='#home'>HOME</a></span>
+                    <li><a href='#limited-Time-Id'>SHOP</a></span>
+                    <li><a href='#contact'>CONTACT</a></span>  
+                </ul>              
+            </div>
+
+            <div class='cart'>
+                <img onclick="openCart()" id='cart' src="image/cart.jpg" ></img>
+            </div>
+            
+
+        </div>
+
+        <div class='frontPage'>
+            <br><br><br><br>
+        </div>
+        <div class='frontPageText'>
+            <h4>All the varities of soda that you can think of</h4>
+            <br><h4>Come get your cold one today!</h4>
+        </div>
+        <img id='cover' src='image/cover.jpeg'>
+       
+        
+    </div>
+    <!-- limited time and special offers --> 
+    <div id='limitedTime'>
+        
+        
+        <div class='limitedTimeWrapper'>
+            <img id='limitedTimePic' src='image/limited-time.jpg'> 
+
+            </img>
+            <div>
+                <h3 class='limited-Time-Text' id='limited-Time-Id'>Limited Time Offer</h3>
+            </div>
+            
+            
+            
+            
+            
+            <div class='sodaDetail'>
+                <div class='cola'>
+                    <img src='image/coca-cola-cherry.jpg' id='cola'></img>                    
+                    <h5>Coca-Cola <br> $0.99</h5> 
+                    <button type="button" class="btn btn-success cartBtn" data-price='0.99' data-title='Cola' data-quantity=1 data-img='./image/coca-cola-cherry.jpg' >Add to cart</button>                       
+                </div>
+                <div class='mountain-dew'>
+                    <img src='image/mountain-dew.jpg' id='md'></img>
+                    <h5>Mtn-Dew <br> $0.99</h5>
+                    <button type="button" class="btn btn-success cartBtn" data-price='0.99' data-title='Mtn Dew' data-quantity=1 data-img='./image/mountain-dew.jpg' >Add to cart</button>
+                </div>
+                <div class='pepsi'>
+                    <img src='image/pepsi-soda-1.jpg' id='pepsi'></img>
+                    <h5>Pepsi <br> $0.99</h5>
+                    <button type="button" class="btn btn-success cartBtn" data-price='0.99' data-title='Pepsi' data-quantity=1 data-img='./image/pepsi-soda-1.jpg'>Add to cart</button>
+                </div> 
+                <div class='sprite'>
+                    <img src='image/sprite-soda.jpg' id='cola'></img>
+                    <h5>Sprite <br> $0.99</h5>
+                    <button type="button" class="btn btn-success cartBtn" data-price='0.99' data-title='Sprite' data-quantity=1 data-img='./image/sprite-soda.jpg'>Add to cart</button>
+                </div> 
+                <div class='pepper'>
+                    <img src='image/dr-pepper-cherry-soda.jpg' id='drp'></img>
+                    <h5>Dr Pepper <br> $0.99</h5>
+                    <button type="button" class="btn btn-success cartBtn" data-price='0.99' data-title='Dr Pepper' data-quantity=1 data-img='./image/dr-pepper-cherry-soda.jpg'>Add to cart</button>
+                </div>     
+
+            </div>
+        </div>
+    </div>
+
+    <!-- cartWrapper -->
+    <div id='cartWrapper'>
+        <div class='cartCover'>
+            <h2 class='cartTitle'>Shopping Cart</h2>
+            <span class="close" onclick='closeCart()'>&times;</span>
+        </div>
+        <div class='checkoutCartProduct'></div>
+        <div class='cartTotalPrice'>
+            <h5 class='cartPriceText'>Total Price:</h5>
+            <h5 class='changingCartPrice'>$0</h5>
+            <button class='btn btn-success buyBtn'>Purchase</button>
+        </div>
+        
+
+    </div>
+
+    <!-- footer -->
+    <div id='contact'>
+        <div>
+            <div>
+                <h4 id='footerLogo'>SodaFresh</h4>
+            </div>
+            <h2 id='footerText'>
+            Yaobin Ma <br>
+            SodaFresh.Inc <br>
+            1234 New Code Street <br>
+            New York NY 12345 <br>            
+            </h2>  
+        </div>
+        <div>
+            <!-- link to github and stuff -->
+        </div>
+
+    </div>    
+
+    <script src="java.js"></script>
+</body>
+</html>

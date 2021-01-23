@@ -1,0 +1,273 @@
+
+
+.logo{
+    padding:10px;
+    float:left;
+    margin:0px 15px;
+    z-index:100;
+    position:fixed;
+    text-shadow: 0px 5px ivory;
+    font-style:italic;
+}
+
+.logoText{
+    font-size:70px;
+}
+
+.menulist{
+    text-decoration: none;
+    list-style-type: none;
+    display:block;
+    float:right;
+    position: fixed;
+    right:10%;
+    z-index:1000;
+    font-weight: bold;
+    font-size:25px;
+    
+}
+li{
+    float:right;
+    margin:20px;
+    
+    
+}
+
+span{
+    margin:0px 20px;
+}
+
+#cart{
+    float:right;
+    right:3%;
+    max-width: 45px;
+    top:2%;
+    position:fixed;
+    z-index:1000;
+}
+
+
+.frontPage,h3,h4{
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    
+}
+
+.frontPageText{
+    text-shadow: 0px 5px lightblue;
+    background-color: white;
+    opacity: 0.8;
+    z-index: -1;
+    
+}
+
+#home{
+    width:100vw;
+    height:100vh;
+    
+
+}
+
+#cover{
+    top:0;
+    position:absolute;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    opacity:0.4;
+    background-size: cover;
+}
+
+#limitedTimePic{
+    position:absolute;   
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    opacity:0.4;
+    
+}
+
+.limited-Time-Text{
+    padding:40px 400px;
+    text-shadow: 0px 5px lightblue;
+    
+}
+
+
+#limitedTime{
+    display:inline-block;
+    
+    
+}
+
+.limitedTimeWrapper{
+    display:inline-block;
+}
+
+.emptySpace{
+    visibility: hidden;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    max-width:100%;
+    
+}
+.cola, .mountain-dew, .pepsi, .sprite, .pepper{
+    float:left;
+    position: relative;
+    text-align: center;
+    width:20%;
+    display: block;
+    
+    
+    
+    
+}
+
+.limitedTimeWrapper{
+    width:100vw;
+    height:100vh;
+}
+
+.sodaDetail{
+    position:relative;
+    top:65%;
+    
+}
+
+#contact, #footerLogo, #footerText{
+    text-align: center;
+    background-color: lightblue;
+    padding:10px
+    
+}
+#footerLogo{
+    z-index:100;
+    text-shadow: 0px 5px ivory;
+    font-style:italic;
+}
+
+
+#cartWrapper{
+    display: none; 
+    float:left;
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px; 
+    left: 5%;
+    top: 5%;
+    width: 90%; 
+    height: 90%; 
+    overflow: auto;     
+    background-color: rgba(0,0,0,1);
+
+}
+
+.cartCover{
+    text-align: center;
+}
+.cartTitle{
+    position:absolute;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:#f1f1f1;
+    top:1%;
+    left:38%;
+}
+
+.close{
+    position:absolute;
+    right:5px;
+    top:5px;
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+    opacity: 1;
+}
+
+.close:hover{
+    color: white;  
+    cursor: pointer;
+}
+
+
+#cart{
+    cursor: pointer;
+}
+
+#cola, #pepsi, #md, #sprite, #drp{
+    display:none;
+    width:100px;
+    height:100px;
+}
+
+.checkoutCartProduct{
+    margin:30px 35px 0px 35px;
+    float:left;
+    text-align: center;
+}
+
+.cartPriceText, .changingCartPrice{
+    color:white;   
+    text-align: center;
+    
+}
+
+.productTitle,.productPrice, .cartButtons{
+    color:white;      
+}
+
+
+
+.delete{
+    margin:10px;
+}
+
+.productDetail{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.cartTotalPrice{
+    position:absolute;
+    bottom:10%;
+    left:45%;
+
+}
+.buyBtn{
+    position:absolute;
+    left:5%;
+}
+
+.productImg{
+    width:200px;
+    height:250px;
+    position:relative;
+    
+}
+
+.cartInput{
+    width:80px;
+    font-size: 30px;
+}
+
+.plus, .minus{
+    width: 50px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:450px){
+    .frontPage{
+        width:100%;
+        height:100%;
+    }
+}
+
+body{
+    width:100vw;
+}
